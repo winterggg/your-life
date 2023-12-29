@@ -11,6 +11,10 @@
     body {
       margin: 8px 8px 0 calc(3rem + 8px);
     }
+    body > ol > li:nth-child(1823),
+    body > ol > li:nth-child(1823) ~ li {
+      visibility: hidden;
+    }
   </style>
 </head>
 <body>
@@ -20,7 +24,7 @@
       <option value="years">Years</option>
       <option value="months">Months</option>
       <option value="weeks" selected>Weeks</option>
-    </select>
+    </select><span style="font-size: 0.5em; color: cornflowerblue;">Coder Edition</span>
   </div>
   <form class="dob" action="#">
     <p class="instruction">Enter your Date of Birth</p>
@@ -72,17 +76,6 @@
         <span>25</span>
         <span>30</span>
         <span>35</span>
-        <span>40</span>
-        <span>45</span>
-        <span>50</span>
-        <span>55</span>
-        <span>60</span>
-        <span>65</span>
-        <span>70</span>
-        <span>75</span>
-        <span>80</span>
-        <span>85</span>
-        <span>90</span>
       </div>
     </div>
     <li></li>

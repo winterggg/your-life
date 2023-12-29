@@ -229,7 +229,7 @@ input:required:invalid.touched {
 .weeks--y-markers span:nth-of-type(16) { top: 83.333333333%; }
 .weeks--y-markers span:nth-of-type(17) { top: 88.888888889%; }
 .weeks--y-markers span:nth-of-type(18) { top: 94.444444444%; }
-.weeks--y-markers span:nth-of-type(19) {
+.weeks--y-markers span:nth-of-type(8) {
   bottom: -1em;
   left: 100%;
   font-size: 1.5em;
